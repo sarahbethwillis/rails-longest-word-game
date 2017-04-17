@@ -1,0 +1,12 @@
+
+<div class="container">
+  <h2>play a pointless game</h2>
+  <h1><%= @array %></h1>
+    <form action="/score">
+      <label for="question"><h2>GUESS</h2></label>
+      <input type="hidden" name="start_time" value="<%= Time.now.utc.strftime( "%H%M%S%L" ) %>">
+      <input type="text" id="question" name="attempt" placeholder="Put some letters in">
+      <input type="hidden" name="grid" value="<%= @array.join %>" >
+      <input type="submit" value="SUBMIT">
+    </form>
+</div>

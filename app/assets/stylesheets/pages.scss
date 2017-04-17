@@ -1,0 +1,31 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-color: #F2B7DE;
+  font-family: Raleway;
+  padding-top: 60px;
+
+}
+
+input {
+  font-family: Raleway;
+
+}
+
+.form {
+  text-align: center;
+  height: 100vh;
+  background-color: #F2B7DE;
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
